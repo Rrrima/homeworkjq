@@ -91,7 +91,14 @@
 		$(".preview").hover(
 			function(){changeimg(this)},
 			function(){init()}
-			);	
+			);
+		$(".preview").focus(
+			function(){changeimg(this)}
+			);
+		$(".preview").blur(
+			function(){init()}
+			);
+		
 	</script>
 
 
